@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Generate a<br></h1>
+            <span>Random Password</span>
+        </div>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <i class="fa-regular fa-copy" onclick="copyPassword()"></i>
+        </div>
+        <button onclick="createPassword()" class="generate">
+            <i class="fa-solid fa-bolt" style="color: #ffffff;" id="btn-icon"></i>
+            <h3 class="btn">Generate Password</h3>
+        </button>
+    </div>
+    <script src="passgenerator.js"></script>
+    <script src="https://kit.fontawesome.com/51e481d614.js" crossorigin="anonymous"></script>
+</body>
+</html>
